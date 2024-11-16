@@ -69,8 +69,6 @@ export default function SchedullingsPage() {
         },
       });
 
-      console.log(response.data.data);
-
       if (Array.isArray(response.data.data)) {
         setAppointments(response.data.data);
       } else {
@@ -165,8 +163,6 @@ export default function SchedullingsPage() {
     newAppointment.time = newAppointment.time+':00';
 
     newAppointment.time = newAppointment.time.substring(0,8);
-
-    console.log(newAppointment);
 
     if (editingAppointment) {
         newAppointment.serviceId = newAppointment.serviceId == 0 ? services[0].id : serviceId;
