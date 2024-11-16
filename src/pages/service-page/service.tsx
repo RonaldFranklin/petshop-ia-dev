@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import './service.scss';
 
 interface Service {
   serviceType: string;

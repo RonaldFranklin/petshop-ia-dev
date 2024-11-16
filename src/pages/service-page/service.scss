@@ -1,0 +1,60 @@
+/* Corpo e plano de fundo */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Cor de fundo mais suave */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar-color {
+    background-color: #ff6600 !important;
+    color: black !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+  }
+  
+  /* Título da página */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Cards */
+  .card {
+    border: none; /* Remove borda padrão */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: transform 0.2s, box-shadow 0.2s; /* Animação ao passar o mouse */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Efeito de "levantar" */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+  }
+  
+  /* Título do Card */
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Texto do Card */
+  .card-text {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Espaçamento entre colunas */
+  .mb-4 {
+    margin-bottom: 30px !important;
+  }
+  
+  /* Botão "Sair" */
+  button {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
