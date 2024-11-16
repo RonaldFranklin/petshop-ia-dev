@@ -4,6 +4,7 @@ import axios from 'axios';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useNavigate } from 'react-router-dom';
+import './pets.scss';
 
 interface Pet {
     id: number;
