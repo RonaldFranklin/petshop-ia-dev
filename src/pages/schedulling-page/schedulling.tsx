@@ -262,15 +262,15 @@ export default function SchedullingsPage() {
               <Card.Body>
                 <Card.Title>Agendamento</Card.Title>
                 <Card.Text>
-                  <strong>Data:</strong> {appointment.date} <br />
-                  <strong>Hora:</strong> {appointment.time} <br />
-                  <strong>Pet:</strong> {appointment.Pet.name} <br />
-                  <strong>Serviço ID:</strong> {appointment.Service.serviceType} <br />
-                  <strong>Status:</strong> {appointment.status} <br />
-                  <strong>Dono:</strong> {appointment.Pet.Owner.name} <br />
-                  <strong>telefone:</strong> {appointment.Pet.Owner.phone} <br />
-                  <strong>Email:</strong> {appointment.Pet.Owner.email} <br />
-                  <strong>Endereço:</strong> {appointment.Pet.Owner.address} <br />
+                  <p><strong>Data:</strong> {appointment.date} </p>
+                  <p><strong>Hora:</strong> {appointment.time} </p>
+                  <p><strong>Pet:</strong> {appointment.Pet.name} </p>
+                  <p><strong>Serviço:</strong> {appointment.Service.serviceType} </p>
+                  <p><strong>Status:</strong> {appointment.status} </p>
+                  <p><strong>Dono:</strong> {appointment.Pet.Owner.name} </p>
+                  <p><strong>telefone:</strong> {appointment.Pet.Owner.phone} </p>
+                  <p><strong>Email:</strong> {appointment.Pet.Owner.email} </p>
+                  <p><strong>Endereço:</strong> {appointment.Pet.Owner.address} </p>
                 </Card.Text>
                 <Button variant="warning" onClick={() => handleShowModal(appointment)}>
                   Editar
