@@ -1,3 +1,70 @@
-.left-side {
-    background-color: #F0582F;
+/* Importando uma fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+.container-fluid {
+    padding: 0;
+}
+
+/* Estilos para o lado esquerdo com uma nova cor de fundo */
+.left-side {
+    background-color: #F0582F; /* Cor já especificada por você */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px; /* Bordas arredondadas para a imagem */
+}
+
+/* Estilização dos campos de entrada */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* Estilização do botão de entrar */
+.button-primary {
+    background-color: #0056b3;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button-primary:hover {
+    background-color: #003580;
+}
+
+/* Link de cadastro */
+.register-link {
+    color: #0056b3;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.register-link:hover {
+    color: #003580;
+}
+
+/* Estilizando o ToastContainer para notificações */
+.ToastContainer {
+    font-size: 14px;
+}
+
