@@ -1,0 +1,34 @@
+/* Card */
+.card {
+    padding: 0; /* Remove qualquer padding adicional no card */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0; /* Garante que não haja margem extra ao redor do card */
+  }
+  
+  /* Corpo do Card */
+  .card-body {
+    padding: 10px; /* Ajusta o espaçamento interno do corpo do card */
+    margin: 0; /* Remove qualquer margem adicional */
+  }
+  
+  /* Elementos do Card */
+  .card-title {
+    margin: 0 0 8px 0; /* Remove margem superior e ajusta inferior */
+    font-size: 18px;
+  }
+  
+  .card-text {
+    margin: 0 0 8px 0; /* Remove margens extras */
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+  }
+  
+  /* Botão no Card */
+  .card .btn-warning {
+    margin-top: 10px; /* Reduz espaço acima do botão */
+    padding: 8px 12px;
+    width: 100%; /* Faz o botão ocupar toda a largura do card */
+  }
+  
