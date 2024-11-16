@@ -52,7 +52,7 @@ export default function Home() {
             </Navbar>
         ))}
         <Container fluid>
-        <Row className="vh-100 d-flex justify-content-center align-items-center">
+        <Row className="home d-flex justify-content-center align-items-center">
             <Col md={6} className="d-flex flex-column align-items-center">
                 <Button className="btn-home w-100 mb-3" onClick={() => navigate('/services')}>
                 Serviços
